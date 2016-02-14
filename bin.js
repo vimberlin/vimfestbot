@@ -17,13 +17,13 @@ function getIrcOpts () {
 }
 
 var opts = {
-  ircServer: process.env['GITTERBOT_IRC_SERVER'],
-  ircChannel: process.env['GITTERBOT_IRC_CHANNEL'],
-  ircNick: process.env['GITTERBOT_IRC_NICK'],
-  ircAdmin: process.env['GITTERBOT_IRC_ADMIN'],
+  ircServer: "irc.freenode.net",
+  ircChannel: "#padrino",
+  ircNick: "padrinobot",
+  ircAdmin: "wikimatze",
   ircOpts: getIrcOpts(),
-  gitterApiKey: process.env['GITTERBOT_APIKEY'],
-  gitterRoom: process.env['GITTERBOT_GITTER_ROOM']
+  gitterApiKey: "320136d0c80ac611a1552d24f62d967484e58caf",
+  gitterRoom: "padrino/padrino-framework"
 }
 
 if (!((opts.ircChannel || opts.ircOpts.channels) &&
