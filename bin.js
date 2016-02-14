@@ -18,12 +18,12 @@ function getIrcOpts () {
 
 var opts = {
   ircServer: "irc.freenode.net",
-  ircChannel: "#padrino",
-  ircNick: "padrinobot",
+  ircChannel: "#vimberlin",
+  ircNick: "vimberlinbot",
   ircAdmin: "wikimatze",
   ircOpts: getIrcOpts(),
-  gitterApiKey: "320136d0c80ac611a1552d24f62d967484e58caf",
-  gitterRoom: "padrino/padrino-framework"
+  gitterApiKey: "c77d28025ca60a5a8e9fb9da9fd8fb737d40704d",
+  gitterRoom: "vimberlin/vimberlin.de"
 }
 
 if (!((opts.ircChannel || opts.ircOpts.channels) &&
