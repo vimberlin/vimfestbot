@@ -18,12 +18,12 @@ function getIrcOpts () {
 
 var opts = {
   ircServer: "irc.freenode.net",
-  ircChannel: "#vimberlin",
-  ircNick: "vimberlinbot",
+  ircChannel: "#vimfest",
+  ircNick: "vimfestbot",
   ircAdmin: "wikimatze",
   ircOpts: getIrcOpts(),
-  gitterApiKey: "c77d28025ca60a5a8e9fb9da9fd8fb737d40704d",
-  gitterRoom: "vimberlin/vimberlin.de"
+  gitterApiKey: "85c3d1b341fdef227177bbdc9f6c676cf6616ec5",
+  gitterRoom: "vimberlin/vimfest"
 }
 
 if (!((opts.ircChannel || opts.ircOpts.channels) &&
