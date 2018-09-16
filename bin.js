@@ -22,7 +22,7 @@ var opts = {
   ircNick: "vimfestbot",
   ircAdmin: "wikimatze",
   ircOpts: getIrcOpts(),
-  gitterApiKey: "85c3d1b341fdef227177bbdc9f6c676cf6616ec5",
+  gitterApiKey: "7e414e411a585b2e65a35de50f18c9d47b525a53",
   gitterRoom: "vimberlin/vimfest"
 }
 
